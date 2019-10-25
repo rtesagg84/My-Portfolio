@@ -1,0 +1,42 @@
+
+.Primary {
+    color:blue;
+    }
+
+    .center {
+        margin: auto;
+        text-decoration: underline;
+        border: 1px solid white;
+        padding-left: 80px
+      }
+    
+.header{
+    text-align: center;
+     line-height: 4pt
+}
+.paragraph{
+    border: 1px solid white;
+     padding: 0 83px 0 83px;
+   
+}
+.height{
+    line-height: 4pt;
+    padding-left: 80px
+}
+.shadow{
+    height: 1480px;
+    width: 1000px;
+    padding: 'none';
+    background-color: 'white';
+    box-shadow: 10px 10px 10px 10px black;
+    margin: 'auto';
+    overflow: hidden;
+    overflow: hidden;
+    position: absolute;
+    left: 10%;
+    top: 2%;
+   
+    
+
+}
+
