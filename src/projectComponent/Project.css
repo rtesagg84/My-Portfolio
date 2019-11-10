@@ -5,11 +5,12 @@
   width: 20rem;
   height: 30rem;
   padding: 10px;
+  grid-column-gap: 50px;
 }
 
 .card:hover {
-  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
-}  
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
 .card-body {
   padding: 3rem 0 !important;
 }
@@ -18,26 +19,47 @@
   padding: 0s.4rem 1.9rem;
 }
 
-.container-fluid.row{
+.container-fluid.row {
   padding: 6rem;
 }
-.overflow{
+.overflow {
   overflow: hidden;
 }
-.card-img-top{
+.card-img-top {
   transform: scale(1);
   transition: transform 0.5s ease;
 }
-.card-img-top:hover{
+.card-img-top:hover {
   transform: scale(1.5);
-
 }
-.card-video-top{
-  transform: scale(1);
-  transition: transform 0.5s ease;
+
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  max-height: 100vh;
  
 }
-.card-video-top:hover{
-  transform: scale(1.5);
-
+.cards img {
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 23vw;
 }
+
+.cards img:hover {
+  transform: scale(1.5);
+}
+.cards-overflow {
+  overflow: hidden;
+}
+.cards img {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+

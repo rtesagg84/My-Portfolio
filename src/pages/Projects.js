@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import Card from "../projectComponent/projectCardUi";
+import Cards from "../projectComponent/projectCardUi1";
 import img4 from "../assets/images4.jpg";
 import img3 from "../assets/image3.jpg";
 import img5 from "../assets/image5.jpg";
-import video1 from "../assets/video1.mp4"
-import {
-  Tabs,
-  Tab,
-  
-  
-  
-} from "react-mdl";
+//import video1 from "../assets/video1.mp4"
+import { Tabs, Tab } from "react-mdl";
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -24,24 +20,41 @@ class Projects extends Component {
         <div className="container-fluod d-flex justfy-content-center">
           <div className="row">
             <div className="col-md-4">
+              <Cards imgsrc={img4} />
+            </div>
+            <div className="col-md-4">
+              <Cards imgsrc={img5} />
+            </div>
+            <div className="col-md-4">
+              <Cards imgsrc={img3} />
+            </div>
+          </div>
+
+          
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="container-fluod d-flex justfy-content-center">
+          <div className="row">
+            <div className="col-md-4">
               <Card
-               imgsrc={img4}
-               
-              /*videosrc={video1}*/
+                imgsrc={img4}
+                /*videosrc={video1}*/
                 title="Resume using react"
                 description="This project shows how to build a resume using React js "
-      />
+              />
             </div>
             <div className="col-md-4">
               <Card
-               imgsrc={img5}
+                imgsrc={img5}
                 title=" Number guessing game"
                 description="This project shows agame using React js "
               />
             </div>
             <div className="col-md-4">
               <Card
-              imgsrc={img3}
+                imgsrc={img3}
                 title=" React-Portfolio"
                 description="This is my pesonal portfolio using Reactjs and React natives "
               />
@@ -49,7 +62,7 @@ class Projects extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 1) {
+    } else if (this.state.activeTab === 2) {
       return (
         <div>
           <h1>This is Mulesoft</h1>
@@ -57,24 +70,23 @@ class Projects extends Component {
       );
     }
   }
+
   render() {
     return (
-<div>
-      <Tabs
-        activeTab={this.state.activeTab}
-        onChange={tabId => this.setState({ activeTab: tabId })}
-        ripple
-      >
-        <Tab>React</Tab>
-        <Tab>Mulesoft</Tab>
-      </Tabs>
-      
-                <div className="content">{this.taggleCategoryies()}</div>
-     
+      <div>
+        <Tabs
+          activeTab={this.state.activeTab}
+          onChange={tabId => this.setState({ activeTab: tabId })}
+          ripple
+        >
+          <Tab>All</Tab>
+          <Tab>React</Tab>
+          <Tab>Mulesoft</Tab>
+        </Tabs>
+
+        <div className="content">{this.taggleCategoryies()}</div>
       </div>
     );
   }
 }
 export default Projects;
-
-// {/* imgsrc={img2}*/}
