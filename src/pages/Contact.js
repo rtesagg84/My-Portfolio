@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
-class contact extends Component{
+class Contact extends Component{
   render(){
     return (
       <section className="contact-section">
@@ -29,6 +29,4 @@ class contact extends Component{
       </section>
     );
   }
-}
-ReactDOM.render(<contact/>,document.getElementById("root"));
-export default contact
+}export default Contact
