@@ -1,6 +1,4 @@
 import React from "react";
-
-import Icon from 'react-fontawesome'
 function Footer() {
   return (
     <div>
@@ -19,7 +17,7 @@ function Footer() {
 
         {/* Github */}
         <a href="https://github.com/" rel="noopener noreferrer" target="_blank">
-          <i className="fa fa-github" aria-hidden="true" />
+          <i className="fa fa-github" aria-hidden="true"/>
           Github
         </a>
         

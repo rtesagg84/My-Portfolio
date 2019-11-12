@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Card from "../projectComponent/projectCardUi";
 import Cards from "../projectComponent/projectCardUi1";
-import img4 from "../assets/images4.jpg";
-import img3 from "../assets/image3.jpg";
-import img5 from "../assets/image5.jpg";
+import img4 from "../assets/image4.gif";
+import img3 from "../assets/image3.gif";
+import img5 from "../assets/image5.gif";
 //import video1 from "../assets/video1.mp4"
 import { Tabs, Tab } from "react-mdl";
 
@@ -17,7 +17,7 @@ class Projects extends Component {
   taggleCategoryies() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="container-fluod d-flex justfy-content-center">
+        <div className="container-fluod d-flex justfy-content-center Top">
           <div className="row">
             <div className="col-md-4">
               <Cards imgsrc={img4} />

@@ -1,22 +1,14 @@
 .header-color {
-  background: #c33764; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1d2671,
-    #c33764
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1d2671,
-    #c33764
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image:url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  
 }
 
 .Landing-grid {
   background-image:url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  /*background-image:url(https://media1.giphy.com/media/1pmatQ3LcP5XFYxSWF/source.gif);*/
   text-align: center;
   width: 100%;
-  height: 550px; /* make 100% with pic*/
+  height:582px ;/* make 100% with pic*/
  
   padding-top: 0;
 }
@@ -33,7 +25,7 @@
   background-repeat: no-repeat, repeat;
   padding-top: 150px; /* mak1 padding=1px with pic*/
   opacity: 0.8;
-  width: 75%;
+ max-width: 75%;
   margin: auto;
   border-radius: 10px;
 
@@ -63,7 +55,7 @@
   font-size: 20px;
   padding: 1em;
 }
-.container {
+{/*.container {
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -89,28 +81,14 @@
   justify-content: center;
   align-items: center;
   background: #e7e7e7;
-}
+}*/}
 .nav {
   width: 100%;
   justify-content: space-around;
   padding: 1rem;
 }
-.scrolled {
-  position: fixed;
-  background-color: grey;
-}
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
 
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
+
 
 @-webkit-keyframes example {
   from {
@@ -179,11 +157,12 @@
 
 
 .aboutMe-Paper {
+  
   padding: 50px;
   margin: auto;
   max-width: 100%;
   height: 100hv;
-  background-color: "lightgrey";
+  background-color: lightgrey;
 }
 .aboutMe-img {
   border-radius: 50%;
@@ -246,21 +225,18 @@ align-items: center;
   border-bottom: 1px solid white ; 
   
 }
+.aboutMe-h3{
+  color:brown;
+}
 
+.aboutMe-row2{
+  width:50%;
 
+}
 
 .footer-style {
-  background: #c33764; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #1d2671,
-    #c33764
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #1d2671,
-    #c33764
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image:url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  
 
   border-top: 1px solid #e7e7e7;
   text-align: center;
@@ -278,14 +254,16 @@ align-items: center;
   width: 100%;
 }
 
-.footer-phantom a {
+.footer-phantom  a {
   display: flex;
   justify-content: space-between;
   width: 50%;
   margin: auto;
 }
-.footer-phantom i {
+.footer-phantom  i {
   color: white;
+  width: 50px;
+  height: 50px;
   font-size: 5em;
   padding: 8px;
 }
@@ -343,37 +321,6 @@ align-items: center;
 /* contact page css */
 
 
-
-
-.social-links {
-  display: flex;
-  text-align:left;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links i {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
-h3{
-  color:brown;
-}
-.container {
-  position: relative;
-  width: 50%;
-}
-
-
-
-
-
-
-
-
-
-
 .contact-section {
   background: linen;
   padding: 30px 0 50px 0;
@@ -399,11 +346,11 @@ h3{
   text-align: left;
   padding: 10px 0;
 }
-.contact-section form .subject, .contact-section form .content {
+ .contact-section form .content {
   width: 80%;
   margin: 0 auto;
 }
-.contact-section form .subject label, .contact-section form .content label {
+ .contact-section form .content label {
   display: block;
   padding: 0;
   margin: 0;
@@ -430,13 +377,8 @@ h3{
   width: 100%;
   height: 40px;
 }
-.contact-section form .subject {
-  height: 62px;
-}
-.contact-section form .subject input[name="subject"] {
-  width: 100%;
-  height: 40px;
-}
+
+
 .contact-section form .content textarea {
   width: 100%;
   resize: none;

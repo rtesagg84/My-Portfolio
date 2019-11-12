@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-//import Particles from "react-particles-js";
+/*import Particles from "react-particles-js";
 const particleOpt = {
   particles: {
     number: {
@@ -11,7 +11,7 @@ const particleOpt = {
       }
     }
   }
-};
+};*/
 class LandingPage extends Component {
   render() {
     return (
