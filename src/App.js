@@ -9,10 +9,20 @@ class App extends Component {
   
 
   render() {
+
+    const closeDrawer = () => {
+  const visibleElems = document.querySelectorAll('.is-visible')
+  for (let i = 0; i < visibleElems.length; i++) {
+    if (visibleElems[i]) {
+     visibleElems[i].classList.remove('is-visible')
+     visibleElems[i].setAttribute('aria-hidden', true)
+    }
+  }
+}
     return (
       
       <div  className="nav">
-        <Layout>
+        <Layout fixedHeader>
           <Header className="header-color" title="My Portfolio" scroll>
             <Navigation >
               <Link to="/">Home</Link>
@@ -23,7 +33,7 @@ class App extends Component {
             </Navigation>
           </Header>
 
-          <Drawer  title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+          <Drawer  title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>} onClick={closeDrawer}>
             <Navigation>
               <Link to="/">Home</Link>
               <Link to="/projects">Projects</Link>
