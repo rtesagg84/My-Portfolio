@@ -1,3 +1,9 @@
+@media only screen and (max-width: 375px) {
+  #main-header {
+    display: none;
+  }
+}
+
 .header-color {
   background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
 }
