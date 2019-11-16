@@ -20,7 +20,7 @@ class Contact extends Component {
     return (
       <section className="contact-section">
         <h3>Contact</h3>
-        <form className="form">
+        <form name="contact-form" data-netlify="true" netlify-honeypot="honeypot" id="contact-form" method="POST" className="form">
           <div className="id">
             <div className="name">
               <label htmlFor="name">Name</label>
@@ -63,8 +63,10 @@ class Contact extends Component {
               value={this.state.message}
               required
             />
-
-            <div className="button--container">
+            <button type="submit">
+              Submit form!!
+            </button>
+            {/* <div className="button--container">
               {!this.state.sent ? (
                 <button type="submit" className="button button-primary">
                   {this.state.buttonText}
@@ -72,7 +74,7 @@ class Contact extends Component {
               ) : (
                 <button className="button button-disabled">Message Sent</button>
               )}
-            </div>
+            </div> */}
           </div>
         </form>
       </section>
