@@ -1,3 +1,9 @@
+@media only screen and (min-width: 375px) {
+  #navigation-drawer {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 375px) {
   #main-header {
     display: none;
