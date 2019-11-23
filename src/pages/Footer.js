@@ -1,30 +1,32 @@
-import React from "react";
-function Footer() {
+import React from 'react'
+function Footer () {
   return (
     <div>
-      <div className="footer-phantom " />
-      <div className="footer-style  ">
+      <div className='footer-phantom ' />
+      <div className='footer-style  '>
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/"
-          rel="noopener noreferrer"
-          target="_blank"
+          href='https://www.linkedin.com/'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          {/*I have a problem with the Icon code*/}
-          <i className="fa fa-linkedin-square" aria-hidden="true"  />
+          {/* I have a problem with the Icon code */}
+          <i className='fa fa-linkedin-square' aria-hidden='true' />
           LinkedIn
         </a>
 
         {/* Github */}
-        <a href="https://github.com/" rel="noopener noreferrer" target="_blank">
-          <i className="fa fa-github" aria-hidden="true"/>
+        <a
+          href='https://github.com/rtesagg84'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <i className='fa fa-github' aria-hidden='true' />
           Github
         </a>
-        
       </div>
-      
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
