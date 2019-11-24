@@ -1,33 +1,9 @@
 import React, { Component } from "react";
-import axios from "axios";
 class Contact extends Component {
   state = {
     name: "",
     message: "",
-    email: "",
-    sent: false,
-    buttonText: "Send Message"
-  };
-
-  formSubmit = async e => {
-    e.preventDefault();
-
-    this.setState({
-      buttonText: "...sending"
-    });
-
-    let data = {
-      name: this.state.name,
-      email: this.state.email,
-      message: this.state.message
-    };
-
-    try {
-      await axios.post('https://localhost:3000', data);
-      this.setState({ sent: true }, this.resetForm());
-    } catch (err) {
-      console.log(err);
-    }
+    email: ""
   };
 
   resetForm = () => {
@@ -42,7 +18,15 @@ class Contact extends Component {
     return (
       <section className="contact-section">
         <h3>Contact</h3>
-        <form className="form" onSubmit={e => this.formSubmit(e) } >
+        <h4 style={{textAlign:"center",fontWeight:"inherit",}}> Hi I'm Aster, I'm a front-end develper who enjoys working with new technologies.... i'd love to work with you. Get in touch with me through this form</h4><br/>
+        <form
+          name="contact-form"
+          data-netlify="true"
+          netlify-honeypot="honeypot"
+          id="contact-form"
+          method="POST"
+          className="form"
+        >
           <div className="id">
             <div className="name">
               <label htmlFor="name">Name</label>
@@ -57,7 +41,7 @@ class Contact extends Component {
               />
             </div>
 
-            <div div className="email">
+            <div className="email">
               <label htmlFor="email">Email</label>
 
               <input
@@ -87,19 +71,12 @@ class Contact extends Component {
             />
 
             <div className="button--container">
-              {!this.state.sent ? (
-                <button type="submit" className="button button-primary">
-                  {this.state.buttonText}
-                </button>
-              ) : (
-                <button className="button button-disabled">Message Sent</button>
-              )}
+              <button type="submit">Submit form!!</button>
             </div>
           </div>
         </form>
       </section>
     );
   }
-  
 }
 export default Contact;

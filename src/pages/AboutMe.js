@@ -5,6 +5,7 @@ import { Grid, Cell } from "react-mdl";
 import img4 from "../assets/imagecode.png";
 import image from "../assets/image1.jpg";
 import Cards from "../projectComponent/projectCardUi1";
+
 class AboutMe extends Component {
 
   
