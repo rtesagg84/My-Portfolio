@@ -4,7 +4,6 @@ function Footer() {
     <div>
       <div className="footer-phantom " />
       <div className="footer-style  ">
-        {/* LinkedIn */}
         <a
           href="https://www.linkedin.com/"
           target="_blank"
@@ -14,7 +13,6 @@ function Footer() {
           LinkedIn
         </a>
 
-        {/* Github */}
         <a
           href="https://github.com/rtesagg84"
           target="_blank"

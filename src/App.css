@@ -30,9 +30,9 @@
   border-radius: 10px;
 
   -webkit-animation-name: example;
-  -webkit-animation-duration: 4s;
+  -webkit-animation-duration: 5s;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 .banner-text h1 {
   font-size: 40px;
