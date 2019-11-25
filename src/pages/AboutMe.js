@@ -5,7 +5,7 @@ import { Grid, Cell } from "react-mdl";
 import img4 from "../assets/imagecode.png";
 import image from "../assets/image1.jpg";
 import Cards from "../projectComponent/projectCardUi1";
-
+import Resume from '../assets/Resume.pdf'
 class AboutMe extends Component {
 
   
@@ -89,7 +89,8 @@ class AboutMe extends Component {
               <Cell col={6}>
               <a
                 className="btn btn-primary btn-learn" 
-                href="https://docs.google.com/document/d/13XljeRGh2egGagH3d1417uez_gjzAyNm8UeZL_K3qlM/edit"
+               /*href="https://docs.google.com/document/d/13XljeRGh2egGagH3d1417uez_gjzAyNm8UeZL_K3qlM/edit"*/
+               href={Resume}
                 target="_blank"
                 rel="noopener noreferrer"
               >
