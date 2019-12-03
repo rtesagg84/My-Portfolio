@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="nav">
         <Layout fixedHeader>
-          <Header className="header-color" title="My Portfolio" scroll>
+          <Header className="header-color" title="Aster Ghebreyesus" scroll>
             <Navigation id="main-header">
               <Link to="/">Home</Link>
               <Link to="/projects">Projects</Link>

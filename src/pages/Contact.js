@@ -18,7 +18,7 @@ class Contact extends Component {
     return (
       <section className="contact-section">
         <h3>Contact</h3>
-        <h4 style={{textAlign:"center",fontWeight:"inherit",}}> Hi I'm Aster, I'm a front-end develper who enjoys working with new technologies.... i'd love to work with you. Get in touch with me through this form</h4><br/>
+        <h4 style={{textAlign:"center",fontWeight:"inherit",}}> Hi I'm Aster, I'm a fullstack  web developer who enjoys working with new technologies.... i'd love to work with you. Get in touch with me through this form</h4><br/>
         <form
           name="contact-form"
           data-netlify="true"

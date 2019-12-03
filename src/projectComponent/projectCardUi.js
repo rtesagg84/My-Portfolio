@@ -5,13 +5,10 @@ const Card = props => {
     <div className="card text-center shadow">
       <div className="overflow">
   <img src={props.imgsrc} alt="image1" className="card-img-top" />
-        {/* <video src={props.videosrc} type="video/mp4" className="card-video-top"/>*/}
-    
-         
- 
+
    <div className="card-body text-dark">
           <h4 className="card-title">{props.title}</h4>
-          <p className="card-text text-secondary">{props.description}</p>
+         {/*} <p className="card-text text-secondary">{props.description}</p>*/}
 
           <a
             href="https://github.com/rtesagg84/"

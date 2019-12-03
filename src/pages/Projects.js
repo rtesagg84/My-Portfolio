@@ -41,22 +41,22 @@ class Projects extends Component {
               <Card
                 imgsrc={img4}
                 /*videosrc={video1}*/
-                title="Resume using react"
-                description="This project shows how to build a resume using React js "
+                title="Resume using Reactjs"
+               /* description="This project shows how to build a resume using React js "*/
               />
             </div>
             <div className="col-md-4">
               <Card
                 imgsrc={img5}
-                title=" Number guessing game"
-                description="This project shows agame using React js "
+                title=" Number guessing game using Reactjs"
+               /* description="This project shows agame using React js "*/
               />
             </div>
             <div className="col-md-4">
               <Card
                 imgsrc={img3}
-                title=" React-Portfolio"
-                description="This is my pesonal portfolio using Reactjs and React natives "
+                title=" React-Portfolio Using Reactjs,React-Router "
+              /*description="This is my pesonal portfolio using Reactjs and React natives "*/
               />
             </div>
           </div>

@@ -4,23 +4,23 @@ function Footer() {
     <div>
       <div className="footer-phantom " />
       <div className="footer-style  ">
-        <a
-          href="https://www.linkedin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-linkedin-square" aria-hidden="true" />
-          LinkedIn
-        </a>
+      <div className="social">
+        
+         <a href="https://www.linkedin.com/"
+         target="_blank"
+         rel="noopener noreferrer"
+         >
+            <i className="fa fa-linkedin"  aria-hidden="true"/>
+          </a>
 
-        <a
-          href="https://github.com/rtesagg84"
+          <a href="https://github.com/"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          <i className="fa fa-github" aria-hidden="true" />
-          Github
-        </a>
+          >
+            <i className="fa fa-github"  aria-hidden="true"/>
+          </a>
+
+</div>
       </div>
     </div>
   );
