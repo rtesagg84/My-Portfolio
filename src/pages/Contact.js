@@ -20,9 +20,8 @@ class Contact extends Component {
         <h3>Contact</h3>
         <h4 style={{textAlign:"center",fontWeight:"inherit",}}> Hi I'm Aster, I'm a fullstack  web developer who enjoys working with new technologies.... i'd love to work with you. Get in touch with me through this form</h4><br/>
         <form
-          name="contact-form"
+          name="contact"
           data-netlify="true"
-          netlify-honeypot="honeypot"
           id="contact-form"
           method="POST"
           className="form"
