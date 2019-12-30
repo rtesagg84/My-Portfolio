@@ -27,7 +27,7 @@ class AboutMe extends Component {
                 </Grid>
                 <Grid className="row2">
                   <p>
-                    I am Aster Ghebreyesus. I am a full stack web developer.I
+                    I am Aster Ghebreyesus. I am a full stack web developer. I
                     like dabbling in various parts of frontend development and
                     like to learn about new technologies, write technical
                     articles or simply play games in my free time.
@@ -51,7 +51,7 @@ class AboutMe extends Component {
                   <h4> Web Application</h4>
                   <Grid>
                     <p>
-                    I have  experience building Middle ware applications using mulesoft 3.9 Integration Platform.
+                    I have experience building middleware applications using mulesoft 3.9 Integration Platform.
                     </p>
                   </Grid>
                 </Cell>
@@ -60,7 +60,7 @@ class AboutMe extends Component {
                   <Grid>
                     <p>
                      I know how to create your website to run across devices using the latest technologies available.
-                     I have extensive experience with HTML5, CSS3 and JavaScript  I'm currently building most of the front-end projects using React,material UI
+                     I have extensive experience with HTML5, CSS3 and JavaScript. I'm currently building most of the front-end projects using React and material UI
               </p>
                   </Grid>
                 </Cell>
@@ -68,7 +68,7 @@ class AboutMe extends Component {
                   <h4> Environments</h4>
                   <Grid>
                     <p>
-                     I have an experience working  with different IDE environment.
+                     I have experience working with different IDE environments.
                     </p>
                   </Grid>
                 </Cell>
@@ -76,7 +76,7 @@ class AboutMe extends Component {
               
               <Grid className="aboutMe-row1">
                 <Cell col={12}>
-                <h5> If you have any cool projects or opportunities,get in touch!!</h5>
+                <h5>If you have any cool projects or opportunities, get in touch!!</h5>
               </Cell> 
               <Grid className="aboutMe-row2" >
                 <Cell col={6}>
