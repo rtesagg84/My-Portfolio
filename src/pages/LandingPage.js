@@ -59,7 +59,7 @@ class LandingPage extends Component {
             <div className="banner-text">
               <h3>{this.state.headerText}</h3>
               <h1>{this.state.secondHeaderText}</h1>
-              <p> React|Css|Html|Nod.js|Java script|SQL|Mulesoft(3.9)</p>
+              <p> React | Css | Html | Nod.js | Java script | SQL | Mulesoft(3.9)</p>
             </div>
           </Cell>
         </Grid>
