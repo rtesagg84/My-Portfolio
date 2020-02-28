@@ -36,7 +36,7 @@ class Contact extends Component {
       <section className="contact-section">
         <h3>Contact</h3>
         <h4 style={{ textAlign: "center", fontWeight: "inherit" }}>
-          &nbsp; Hi I'm Aster, I'm a full-stack web developer who enjoys working
+          &nbsp; Hi I'm Aster, I'm a front end developer who enjoys working
           with new technologies.... I'd love to work with you. Get in touch with
           me through this form.
         </h4>

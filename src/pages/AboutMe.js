@@ -22,12 +22,12 @@ class AboutMe extends Component {
               <Cell col={6} >
                 <Grid className="row1">
                   <ButtonBase className="aboutMe-buttenBase">
-                    <img className="aboutMe-img" alt="complex" src={image}  />
+                    <img className="aboutMe-img" alt="myImage" src={image}  />
                   </ButtonBase>
                 </Grid>
                 <Grid className="row2">
                   <p>
-                    I am Aster Ghebreyesus. I am a full stack web developer. I
+                    I am Aster Ghebreyesus. I am a front end developer. I
                     like dabbling in various parts of frontend development and
                     like to learn about new technologies, write technical
                     articles or simply play games in my free time.
@@ -60,7 +60,7 @@ class AboutMe extends Component {
                   <Grid>
                     <p>
                      I know how to create your website to run across devices using the latest technologies available.
-                     I have extensive experience with HTML5, CSS3 and JavaScript. I'm currently building most of the front-end projects using React,material UI
+                     I have extensive experience with HTML5, CSS3 and JavaScript. I'm currently building most of the front-end projects using React,React-rauter,React-redux,material UI
               </p>
                   </Grid>
                 </Cell>

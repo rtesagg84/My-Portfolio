@@ -20,13 +20,13 @@ class Projects extends Component {
         <div className="container-fluod d-flex justfy-content-center Top">
           <div className="row">
             <div className="col-md-4">
-              <Cards imgsrc={img4} />
+              <Cards imgsrc={img4} alt="React Resume Image" />
             </div>
             <div className="col-md-4">
-              <Cards imgsrc={img5} />
+              <Cards imgsrc={img5}alt="React Guessing Image" />
             </div>
             <div className="col-md-4">
-              <Cards imgsrc={img3} />
+              <Cards imgsrc={img3} alt="React Portfolio Image"/>
             </div>
           </div>
 
