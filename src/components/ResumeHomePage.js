@@ -27,10 +27,8 @@ class Resume extends Component {
                 <div >
                     <h3 className="Resume-center " >Professional Summary : </h3>
                     <p className="Resume-paragraph" >
-                        Software Engineer with 3 years of experience in developing enterprise level web and windows-based
-                        applications and SDLC processes including documentation, form designs, coding, unit testing and defect resolution.
-                        Technical support, supervisory leadership, and management for more than two years.
-                    </p>
+                    	Software Engineer with 5+ years of experience in developing enterprise level web and windows-based applications and SDLC processes including documentation, form designs, coding, unit testing and defect resolution.</p>
+                    <p>	More  than 2 years with   technical support, supervisory leadership for intern level developers and monitoring students. </p>
                 </div>
 
 
@@ -51,8 +49,8 @@ class Resume extends Component {
                 </div>
 
                 <div className="ProfDevelopment">
-                    <h3 className="Resume-center">Professional Development:</h3>
-                    <div style={{ paddingLeft: '80px' }}>
+                    <h3 className="Resume-center1">Professional Development:</h3>
+                    <div >
                         <Development />
                     </div>
 

@@ -4,7 +4,8 @@ import Cards from "../projectComponent/projectCardUi1";
 import img4 from "../assets/image4.gif";
 import img3 from "../assets/image3.gif";
 import img5 from "../assets/image5.gif";
-//import video1 from "../assets/video1.mp4"
+import img6 from "../assets/image6.gif";
+
 import { Tabs, Tab } from "react-mdl";
 
 class Projects extends Component {
@@ -17,6 +18,7 @@ class Projects extends Component {
   taggleCategoryies() {
     if (this.state.activeTab === 0) {
       return (
+        <div className="bodycolor">
         <div className="container-fluod d-flex justfy-content-center Top">
           <div className="row">
             <div className="col-md-4">
@@ -28,9 +30,13 @@ class Projects extends Component {
             <div className="col-md-4">
               <Cards imgsrc={img3} alt="React Portfolio Image"/>
             </div>
+            <div className="col-md-4">
+              <Cards imgsrc={img6} alt="React Portfolio Image"/>
+            </div>
           </div>
 
           
+        </div>
         </div>
       );
     } else if (this.state.activeTab === 1) {
@@ -65,7 +71,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Mulesoft</h1>
+          <h1>React-native</h1>
         </div>
       );
     }
@@ -81,7 +87,7 @@ class Projects extends Component {
         >
           <Tab>All</Tab>
           <Tab>React</Tab>
-          <Tab>Mulesoft</Tab>
+          <Tab>React-Native</Tab>
         </Tabs>
 
         <div className="content">{this.taggleCategoryies()}</div>

@@ -12,7 +12,7 @@ class Development extends Component {
        
         
         return (
-            <div>{
+            <div className="profetionaldevelopment">{
                 this.State.Developmentlist.map((rowdata) => 
                 <React.Fragment key={rowdata.id}>
                     <h5 ><i> {rowdata.Roll}</i></h5>

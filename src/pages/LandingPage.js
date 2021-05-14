@@ -6,7 +6,7 @@ class LandingPage extends Component {
     headerText: "",
     secondHeaderText: "",
     allHeaderText: "Hello I'm Aster",
-    allSecondHeaderText: "Front End Developer",
+    allSecondHeaderText: "Software Engineer ",
     intervalId: null
   };
 

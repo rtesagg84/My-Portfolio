@@ -9,7 +9,7 @@ class Education extends Component {
     }
     render() {
         return (
-            <div className="Education" style={{ padding: '0 83px 0 83px' }}>
+            <div className="Education" >
                 
                 <div>
                     {

@@ -11,7 +11,7 @@ class Experience extends Component {
         return (
             <div className="Experince">
                 
-                <div style={{ padding: '0 80px 0 80px' }}>{
+                <div className="expetince_parag">{
 
                     this.state.ExperienceList.map((rowdata) =>
                         <React.Fragment key={rowdata.id}>

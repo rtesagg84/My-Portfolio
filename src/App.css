@@ -1,28 +1,60 @@
 .header-color {
-  background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif); 
+  
+    /* background-image: url(https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008__340.jpg); */
 }
 
 @media only screen and (max-width: 375px) {
   #main-header {
     display: none;
+    color-adjust: #D96846;
   }
 }
-
+/* body{
+  /* background-color:lightgray; 
+   
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  /* background-attachment: fixed;
+  background-position: bottom right; 
+} */
+@media screen and (min-width: 1024px) {
+  .mdl-layout__drawer-button {
+      display: none;
+  }
+}
 .Landing-grid {
-  background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  /* background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
   text-align: center;
   width: 100%;
-  height: 598px;
-  /* make 100% with pic*/
+  height: 82.7vh;
+  margin: auto;
+   background-size: cover; 
+  /* background-position: right; */
+  /* background-repeat: repeat-y; 
+   background-repeat: no-repeat; 
+  /* background-attachment: inherit;
+  background-position: bottom right;
+  
 
-  padding-top: 0;
+  padding-top: 0; */
+  background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif); 
+  
+  /* Background image is centered vertically and horizontally at all times */ 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 82.7vh;
+  background-size: cover; 
+  
+  /* Font Colour */ 
+  
 }
 
 .banner-text {
   text-align: center;
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
-  padding-top: 150px; 
+  padding-top: 120px; 
   /* mak1 padding=1px with pic*/
   opacity: 0.8;
   max-width: 75%;
@@ -38,17 +70,21 @@
   font-size: 40px;
    /* make 66px with  pic*/
   font-weight: bold;
-  color: white;
+  /* color: white; */
+  color: #e31b6d;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .banner-text h1 {
   border-bottom: 5px dotted white;
   width: 60%;
   margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .banner-text h3 {
   width: 30%;
   margin: auto;
   color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 
   font-size: 20px;
   padding: 1em;
@@ -58,12 +94,14 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .nav {
   width: 100%;
   justify-content: space-around;
   /*padding: 1rem;*/
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 @-webkit-keyframes example {
@@ -89,49 +127,113 @@
 
 
 /*Resume-style*/
-
+@media only screen and(max-width:320px){
 .Resume-Primary {
   color: blue;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .Resume-center {
   margin: auto;
   text-decoration: underline;
   border: 1px solid white;
-  padding-left: 80px;
+  padding-left: 8px;
+
 }
 
 .Resume-header {
   text-align: center;
   line-height: 4pt;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .Resume-paragraph {
   border: 1px solid white;
-  padding: 0 83px 0 83px;
+  padding: 0 8px 0 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .Resume-height {
   line-height: 4pt;
-  padding-left: 80px;
+  padding-left: 8px;
 }
-@media only screen and (min-width: 360px) {
-  .Resume-shadow {
+.expetince_parag{
+  padding: 0 80px 0 80px
+}
+.Education{
+   padding: 0 8px 0 8px
+}
+.Resume-center1{
+  padding: 0 8px 0 8px
+}
+.Resume-shadow {
+  height: 81vh;
+  /* max-height: 588px; */
+  width: 100%;
+  max-width: 90vw;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 10px 10px 10px black;
+  margin: auto;
+  margin-left: 0px;
+  top: 2%;
+  left: 2%;
+  right: 2%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative; 
+}
+}
+@media only screen and(min-width:320px){
+  .Resume-Primary {
+    color: blue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+  .Resume-center {
+    margin: auto;
+    text-decoration: underline;
+    border: 1px solid white;
+    padding-left: 83px;
+  
+  }
+  
+  .Resume-header {
+    text-align: center;
+    line-height: 4pt;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .Resume-paragraph {
+    border: 1px solid white;
+    padding: 0 83px 0 83px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .Resume-height {
+    line-height: 4pt;
+    padding-left: 83px;
+  }}
 
-   max-height: 588px;
+/* @media only screen and (min-width: 360px) { */
+  .Resume-shadow {
+    height: 81vh;
+   /* max-height: 588px; */
     width: 100%;
-    max-width: 85vw;
+    max-width: 90vw;
     padding:10px;
     background-color: white;
-    box-shadow: 10px 10px 10px 10px black;
+    box-shadow: 1px 10px 10px 10px black;
    margin: auto;
     top: 2%;
     left:2%;
     right:2%;
-    overflow: auto;
-    overflow: auto;
+    overflow-y: auto; 
+    overflow-x: hidden;
     position: relative;
  
     
   }
+/* } */
+.mdl-layout.has-scrolling-header .mdl-layout__content {
+  overflow-y:auto;
+  overflow-x: hidden;
 }
 
 
@@ -141,11 +243,11 @@
   padding: 50px;
   margin: auto;
   max-width: 100%;
-  height:598px;
+  height:82.7vh;
   /*background-color: lightgrey;*/
   background-color: rgba(0, 0, 0, 0.5);
-  overflow: auto;
-  overflow: auto;
+   overflow: auto;
+  
   
 }
 
@@ -162,6 +264,7 @@
   font-size: 20px;
   text-align: center;
   padding-right: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .aboutMe-buttenBase {
@@ -173,6 +276,7 @@
 .aboutMe-row-head {
   text-align: center;
   font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   border-bottom: 1px solid gray;
   border-top: 1px solid gray;
 }
@@ -189,6 +293,7 @@
   font-size: 40px;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .aboutMe-card {
   widows: 100%;
@@ -215,7 +320,8 @@
 
 .footer-style {
   background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
-  border-top: 1px solid #e7e7e7;
+  
+  /* border-top: 1px solid #e7e7e7; */
   text-align: center;
   padding: 20px;
   position: fixed;
@@ -224,12 +330,12 @@
   height: 60px;
   width: 100%;
 }
-.footer-phantom {
+/* .footer-phantom {
   display: block;
   padding: 20px;
   height: 60px;
   width: 100%;
-}
+} */
 
 .social {
   margin:2px, 0;
@@ -241,6 +347,7 @@
   display: inline-block;
   margin: 0 25px;
   padding:0;
+  color: #e31b6d;
 }
 /* contact page css */
 
@@ -248,9 +355,9 @@
   background: linen;
   padding: 30px 0 50px 0;
   text-align: center;
-  height:598px;
-  overflow: auto;
-  overflow: auto;
+  height:82.7vh;
+  
+  overflow: auto; 
 }
 .contact-section h3 {
   margin: 0;
@@ -264,7 +371,8 @@
   
 }
 .contact-section h4{
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 15%;
   font-size:20px;
    color:green;
@@ -290,7 +398,8 @@
   display:black;
   padding: 0;
   margin: 0;
-  font-family: "Varela Round";
+  /* font-family: "Varela Round"; */
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .contact-section form .id {
   display: flex;
@@ -309,7 +418,8 @@
   display: block;
   padding: 0;
   margin: 0;
-  font-family: "Varela Round";
+  /* font-family: "Varela Round"; */
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .contact-section form .id .name input[name="email"],
 .contact-section form .id .email input[name="email"],
@@ -332,4 +442,15 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   font-family: "Varela Round";
   transition: all 0.3;
+}
+
+.mdl-layout__title, .mdl-layout-title {
+  color: #e31b6d;
+}
+.mdl-layout__header-row .mdl-navigation__link{
+  color: #e31b6d;
+}
+.mdl-layout__header .mdl-layout__drawer-button{
+  background-image: url(https://thumbs.gfycat.com/GenerousBestFireant-size_restricted.gif);
+  color: #e31b6d;
 }

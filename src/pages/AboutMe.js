@@ -27,8 +27,8 @@ class AboutMe extends Component {
                 </Grid>
                 <Grid className="row2">
                   <p>
-                    I am Aster Ghebreyesus. I am a front end developer. I
-                    like dabbling in various parts of frontend development and
+                    I am Aster Ghebreyesus. I am 	Software Engineer . I
+                    like dabbling in various parts of frontend , backend development and
                     like to learn about new technologies, write technical
                     articles or simply play games in my free time.
                   </p>

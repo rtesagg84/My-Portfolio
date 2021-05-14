@@ -1,5 +1,9 @@
-.body {
-  background: radial-gradient(#e5e5e5, #ffffff, #e5e5e5);
+.bodycolor {
+  background:white;height:75.7vh;overflow-y:auto;overflow-x: none;
+
+}
+.mdl-tabs__tab-bar{
+  background-color: white;
 }
 .card {
   
